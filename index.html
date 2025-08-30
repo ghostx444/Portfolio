@@ -1,0 +1,103 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Kishore — Portfolio (Simple)</title>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <style>
+    :root{
+      --bg:#0a0a0a;
+      --red:#e63946;
+      --grey:#a8a8a8;
+      --card:#151515;
+    }
+    *{box-sizing:border-box}
+    html,body{
+      height:100%;
+      margin:0;
+      font-family:'Share Tech Mono', monospace;
+      color:var(--red);
+      -webkit-font-smoothing:antialiased;
+    }
+    .container{max-width:880px;margin:36px auto;padding:20px}
+    header{text-align:left;margin-bottom:28px}
+    header h1{font-size:34px;margin:0;color:var(--red)}
+    header p{margin:6px 0 0;color:var(--grey)}
+    .card{
+      background:var(--card);
+      border:1px solid rgba(230,57,70,0.06);
+      padding:14px;
+      border-radius:6px;
+      margin:16px 0;
+      color:var(--grey)
+    }
+    h2{color:var(--red);font-size:16px;margin:0 0 10px}
+    a{color:var(--red);text-decoration:none}
+    footer{text-align:center;color:var(--grey);margin-top:28px;font-size:13px}
+    @media (max-width:600px){ header h1{font-size:24px} }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>>> Kishore J - Portfolio</h1>
+      <p>Red Team | Ethical Hacking | Web Exploits</p>
+    </header>
+
+    <section class="card" id="about">
+      <h2>[ About Me ]</h2>
+      <p>I'm Kishore — a Class 12 (NIOS) student and cybersecurity enthusiast focusing on Red Team techniques, web security and exploit automation. I build small labs and tools to practise reconnaissance, exploitation and post-exploitation workflows.</p>
+    </section>
+
+    <section class="card" id="skills">
+      <h2>[ Skills ]</h2>
+      <ul>
+        <li>Proficient in <strong>Kali Linux</strong> (70% skill level), with hands-on experience in penetration testing tools and workflows</li>
+        <li><strong>C++</strong> (60%)</li>
+        <li><strong>Python</strong> (60%)</li>
+        <li><strong>HTML</strong> (80%)</li>
+        <li><strong>Metasploit</strong></li>
+        <li><strong>Networking</strong></li>
+        <li><strong>Web Security</strong></li>
+        <li>Comfortable using <strong>Debian family distributions</strong> (Kali, Ubuntu, Parrot, etc.)</li>
+      </ul>
+    </section>
+
+    <section class="card" id="certificates">
+      <h2>[ Certificates ]</h2>
+      <ul>
+        <li>EC-Council — Certified Security Analyst (CSA)</li>
+        <li>Red Team Hacker Academy — Certified Information & Cyber Security Associate (CICSA)</li>
+      </ul>
+    </section>
+
+    <section class="card" id="labs">
+      <h2>[ Labs & Learning ]</h2>
+      <ul>
+        <li><strong>Red Team Toolkit</strong> — Collection of Python & Bash scripts for automating reconnaissance and exploitation tasks in a lab.</li>
+        <li><strong>Web Exploit Labs</strong> — Practice setups using DVWA, OWASP Juice Shop, and custom vulnerable apps.</li>
+        <li><strong>Password Cracking Practice</strong> — Experiments with Hydra, John the Ripper, and wordlist generation.</li>
+        <li><strong>Networking Playground</strong> — Simulated home lab to learn Nmap scanning, port enumeration, and traffic sniffing.</li>
+        <li><strong>Future Projects</strong> — Building my own mini CTF challenges and automation tools.</li>
+      </ul>
+    </section>
+
+    <section class="card" id="contact">
+      <h2>[ Contact ]</h2>
+      <p>Email: <a href="mailto:k77413128@gmail.com">k77413128@gmail.com</a><br>
+      GitHub: <a href="https://github.com/ghostx444" target="_blank" rel="noreferrer">https://github.com/ghostx444</a></p>
+    </section>
+
+    <footer>
+      <p>© 2025 Kishore | Built with guidance from <strong>ChatGPT</strong></p>
+    </footer>
+  </div>
+
+  <script src="./styl.js">
+
+  </script>
+</body>
+</html>
