@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="en">
 <head>
@@ -20,6 +19,7 @@
       margin:0;
       font-family:'Share Tech Mono', monospace;
       color:var(--red);
+      background:var(--bg);
       -webkit-font-smoothing:antialiased;
     }
     .container{max-width:880px;margin:36px auto;padding:20px}
@@ -85,6 +85,17 @@
       </ul>
     </section>
 
+    <!-- ✅ Live TryHackMe Badge (full width, no side scroll) -->
+    <section class="card" id="badge">
+      <h2>[ Live Badge ]</h2>
+      <p>My latest TryHackMe progress:</p>
+      <iframe
+        src="https://tryhackme.com/api/v2/badges/public-profile?userPublicId=4618635"
+        scrolling="no"
+        style="display:block;width:100%;max-width:500px;height:180px;margin:0 auto;border:none;border-radius:6px;">
+      </iframe>
+    </section>
+
     <section class="card" id="contact">
       <h2>[ Contact ]</h2>
       <p>Email: <a href="mailto:k77413128@gmail.com">k77413128@gmail.com</a><br>
@@ -96,8 +107,6 @@
     </footer>
   </div>
 
-  <script src="./styl.js">
-
-  </script>
+  <script src="./styl.js"></script>
 </body>
 </html>
